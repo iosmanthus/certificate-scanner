@@ -1,0 +1,11 @@
+[package]
+name = "analysis"
+version = "0.1.0"
+authors = ["iosmanthus <myosmanthustree@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+batch-gcd = { git = "https://github.com/iosmanthus/batch-gcd" }
+rug   = "*"
+rayon = "*"
+mysql = "*"
